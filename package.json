@@ -1,0 +1,13 @@
+{
+  "name": "zeon-contract-test",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "run-with-testrpc": "^0.2.1"
+  },
+  "scripts": {
+    "test": "run-with-testrpc -l 40000000 'truffle test'"
+  }
+}
